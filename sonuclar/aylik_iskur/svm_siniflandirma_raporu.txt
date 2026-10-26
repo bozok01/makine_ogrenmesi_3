@@ -1,0 +1,9 @@
+SVM\nDoğruluk (accuracy): 0.912\n\nKarmaşıklık matrisi (satırlar gerçek, sütunlar tahmin):\n[[214  10]
+ [ 33 229]]\n\n              precision    recall  f1-score   support
+
+       Düşük       0.87      0.96      0.91       224
+      Yüksek       0.96      0.87      0.91       262
+
+    accuracy                           0.91       486
+   macro avg       0.91      0.91      0.91       486
+weighted avg       0.92      0.91      0.91       486

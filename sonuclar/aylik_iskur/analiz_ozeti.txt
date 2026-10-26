@@ -1,0 +1,38 @@
+İŞKUR AYLIK ENGELLİ KONTENJAN ANALİZİ
+Aylık dosya sayısı: 20
+Dönem: 2025-01 - 2026-08
+İl-ay kayıt sayısı: 1619
+2025 Mayıs dosyasında bir ilin bazı değerleri eksik olduğu için ilgili geçiş model eğitiminden çıkarıldı.
+Test çoğunluk sınıfı başlangıç doğruluğu: 0.539
+Tahmin hedefi: sonraki ay açık kontenjanın düşük/yüksek olması (eğitim medyanı: 54).
+Modeller kesin kontenjan sayısını değil, il için düşük/yüksek sınıfını tahmin eder.
+
+Aylara göre Türkiye toplam açık kontenjanı:
+     Tarih  Acik_Kontenjan
+2025-01-01         20884.0
+2025-02-01         21922.0
+2025-03-01         21253.0
+2025-04-01         22175.0
+2025-05-01         22633.0
+2025-06-01         23825.0
+2025-07-01         23513.0
+2025-08-01         24149.0
+2025-09-01         23114.0
+2025-10-01         21005.0
+2025-11-01         21143.0
+2025-12-01         21474.0
+2026-01-01         21011.0
+2026-02-01         21564.0
+2026-03-01         22937.0
+2026-04-01         18800.0
+2026-05-01         23144.0
+2026-06-01         24538.0
+2026-07-01         28211.0
+2026-08-01         27160.0
+
+Model doğrulukları:
+             Model  Dogruluk
+Lojistik Regresyon  0.899177
+       Karar Ağacı  0.884774
+               KNN  0.835391
+               SVM  0.911523

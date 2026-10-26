@@ -1,0 +1,37 @@
+Eğitim dönemi: 2025-01 - 2026-01\nTest hedef ayları: 2026-03 - 2026-08\nEğitim kayıt sayısı: 1051 | Test kayıt sayısı: 486\nHedef: sonraki ay açık kontenjan sınıfı (Düşük / Yüksek).\nTest çoğunluk sınıfı başlangıç doğruluğu: 0.539\n\nLojistik Regresyon - doğruluk: 0.899\nKarmaşıklık matrisi (satırlar gerçek, sütunlar tahmin):\n[[213  11]
+ [ 38 224]]\n              precision    recall  f1-score   support
+
+       Düşük       0.85      0.95      0.90       224
+      Yüksek       0.95      0.85      0.90       262
+
+    accuracy                           0.90       486
+   macro avg       0.90      0.90      0.90       486
+weighted avg       0.90      0.90      0.90       486
+\n\nKarar Ağacı - doğruluk: 0.885\nKarmaşıklık matrisi (satırlar gerçek, sütunlar tahmin):\n[[197  27]
+ [ 29 233]]\n              precision    recall  f1-score   support
+
+       Düşük       0.87      0.88      0.88       224
+      Yüksek       0.90      0.89      0.89       262
+
+    accuracy                           0.88       486
+   macro avg       0.88      0.88      0.88       486
+weighted avg       0.88      0.88      0.88       486
+\n\nKNN - doğruluk: 0.835\nKarmaşıklık matrisi (satırlar gerçek, sütunlar tahmin):\n[[215   9]
+ [ 71 191]]\n              precision    recall  f1-score   support
+
+       Düşük       0.75      0.96      0.84       224
+      Yüksek       0.95      0.73      0.83       262
+
+    accuracy                           0.84       486
+   macro avg       0.85      0.84      0.83       486
+weighted avg       0.86      0.84      0.83       486
+\n\nSVM - doğruluk: 0.912\nKarmaşıklık matrisi (satırlar gerçek, sütunlar tahmin):\n[[214  10]
+ [ 33 229]]\n              precision    recall  f1-score   support
+
+       Düşük       0.87      0.96      0.91       224
+      Yüksek       0.96      0.87      0.91       262
+
+    accuracy                           0.91       486
+   macro avg       0.91      0.91      0.91       486
+weighted avg       0.92      0.91      0.91       486
+\n\n

@@ -1,0 +1,9 @@
+Karar Ağacı\nDoğruluk (accuracy): 0.885\n\nKarmaşıklık matrisi (satırlar gerçek, sütunlar tahmin):\n[[197  27]
+ [ 29 233]]\n\n              precision    recall  f1-score   support
+
+       Düşük       0.87      0.88      0.88       224
+      Yüksek       0.90      0.89      0.89       262
+
+    accuracy                           0.88       486
+   macro avg       0.88      0.88      0.88       486
+weighted avg       0.88      0.88      0.88       486
